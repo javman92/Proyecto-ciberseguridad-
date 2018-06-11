@@ -1,0 +1,29 @@
+----------------------- DoS -----------------------
+captureDoS1 -> outputDoS1 -> 5500 - 32000;
+captureDoS2 -> outputDoS2 -> 2000 - 4300;
+captureDos3 -> outputDoS3 -> 7000 - 10598;
+captureDoS4 -> outputDoS4 -> 7500 - 27884;
+captureDoS5 -> outputDoS5 -> 4100 - 7000;
+captureDoS6 -> outputDoS6 -> 4200 - 7000;
+captureDoS7 -> outputDoS7 -> 4500 - 8000;
+captureDoS8 -> outputDoS8 -> 4000 - 8000;
+captureDoS9 -> outputDoS9 -> 5400 - 10000;
+captureDoS910 -> outputDoS10 -> 5100 - 10000;
+----------------------- Probe -----------------------
+captureProbe1 -> outputProbe1 -> 11800 - 36500;
+captureProbe2 -> outputProbe2 -> 5000 - 10000;
+captureProbe3 -> outputProbe3 -> 9000 - 14500;
+captureProbe4 -> outputProbe4 -> 5700 - 7800;
+captureProbe5 -> outputProbe5 -> 4000 - 7200;
+captureProbe6 -> outputProbe6 -> 3000 - 5200;
+captureProbe7 -> outputProbe7 -> 4400 - 8200;
+captureProbe8 -> outputProbe8 -> 3500 - 6200;
+captureProbe9 -> outputProbe9 -> 5000 - 8000;
+captureProbe10 -> outputProbe10 -> 4100 - 7000;
+
+
+----------------------- MITM -----------------------
+captureMITM1 -> outputMITM1 -> 3800 - 8000;
+captureMITM2 -> outputMITM2 -> 3300 - 10000;
+captureMITM3 -> outputMITM3 -> 3000 - 6500;
+captureMITM4 -> outputMITM4 -> 3100 - 6000;
