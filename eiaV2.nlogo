@@ -39,7 +39,7 @@ to setup ; Se definen los valores d elas variables
   ; Se configuran los nodos iniciales
   create-nodes initialNodes[ ; Crea una cantidad de nodos igual a la cantidad de nodos inicial
     set color green
-    set life 60 ; Tiempo de vida inicial de los agentes
+    set life nodeInitialLife ; Tiempo de vida inicial de los agentes
     set energy nodeInitialEnergy
     set heading 90
     set shape "circle"
@@ -104,7 +104,7 @@ to makeNode ; El agente puede tener hijos dependiendo su nivel de energía en do
           set genes replace-item rnd1 genes aux2
           set genes replace-item rnd2 genes aux1
         set energy birthEnergy
-        set life 60
+        set life childrenInitialLife
         downhill4 numNodes
       ]
     ]
@@ -713,6 +713,28 @@ PENS
 "Particles" 1.0 0 -13345367 true "" "plot (count particles)"
 "LowerBound" 1.0 0 -7858858 true "" "plot particlePromDown"
 "UpperBound" 1.0 0 -7858858 true "" "plot particlePromUp"
+
+INPUTBOX
+15
+680
+260
+740
+nodeInitialLife
+100.0
+1
+0
+Number
+
+INPUTBOX
+56
+751
+311
+811
+childrenInitialLife
+0.0
+1
+0
+Number
 
 @#$#@#$#@
 ## WHAT IS IT?
